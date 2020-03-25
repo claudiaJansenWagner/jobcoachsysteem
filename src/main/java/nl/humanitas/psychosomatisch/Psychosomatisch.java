@@ -3,10 +3,12 @@ package nl.humanitas.psychosomatisch;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 import nl.humanitas.deelnemer.Deelnemer;
 
 @Entity
+@Table(name = "psychosomatisch")
 public class Psychosomatisch {
 
 	@Id

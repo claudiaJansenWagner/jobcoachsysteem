@@ -3,10 +3,12 @@ package nl.humanitas.gesprek;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 import nl.humanitas.deelnemer.Deelnemer;
 
 @Entity
+@Table(name = "gesprek")
 public class Gesprek {
 
 	@Id

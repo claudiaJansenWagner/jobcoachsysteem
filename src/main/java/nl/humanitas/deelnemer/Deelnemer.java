@@ -2,8 +2,10 @@ package nl.humanitas.deelnemer;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "deelnemer")
 public class Deelnemer {
 	
 	@Id
