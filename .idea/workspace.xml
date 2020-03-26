@@ -2,64 +2,720 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3620b5c5-6763-4c4e-866f-3547d2e287ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_icu_icu4j_58_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_4_0_b180830_0359.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_abego_treelayout_org_abego_treelayout_core_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_ST4_4_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_4_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_orm_hibernate_core_6_0_0_Alpha4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nl/humanitas/contract/ContractControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/jobcoach-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/dashboard/dashboard.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/dashboard/dashboard.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/dashboard/dashboard.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/dashboard/dashboard.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/deelnemer-details/deelnemer-details.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/deelnemer-details/deelnemer-details.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/deelnemer-details/deelnemer-details.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/deelnemer-details/deelnemer-details.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/deelnemer.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/deelnemer.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/deelnemer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/deelnemers/deelnemers.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/deelnemers/deelnemers.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/deelnemers/deelnemers.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/deelnemers/deelnemers.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/mock-deelnemers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core-testing.umd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core-testing.umd.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core-testing.umd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core-testing.umd.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/core.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/core.metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/core.externs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/public_api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/application_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/application_module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/application_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/application_tokens.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/change_detection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/change_detection/change_detection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/change_detection/change_detection_util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/change_detection/change_detector_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/change_detection/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/change_detection/differs/default_iterable_differ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/change_detection/differs/default_keyvalue_differ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/change_detection/differs/iterable_differs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/change_detection/differs/keyvalue_differs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/change_detection/pipe_transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/codegen_private_exports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/compiler/compiler.externs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/compiler/compiler_facade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/compiler/compiler_facade_interface.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/console.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/core_private_export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/core_render3_private_export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/debug/debug_node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/debug/proxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/forward_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/injectable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/injection_token.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/injector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/injector_compatibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/interface/defs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/interface/injector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/interface/interface.externs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/interface/provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/jit/environment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/jit/injectable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/jit/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/r3_injector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/reflective_errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/reflective_injector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/reflective_key.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/reflective_provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/scope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/di/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/error_handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/event_emitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/i18n/locale_data_api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/i18n/locale_en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/i18n/localization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/i18n/tokens.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/interface/interface.externs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/interface/lifecycle_hooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/interface/simple_change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/interface/type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/ivy_switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/linker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/linker/compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/linker/component_factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/linker/component_factory_resolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/linker/element_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/linker/ng_module_factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/linker/ng_module_factory_loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/linker/ng_module_factory_registration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/linker/query_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/linker/system_js_ng_module_factory_loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/linker/template_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/linker/view_container_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/linker/view_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/metadata/di.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/metadata/directives.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/metadata/ng_module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/metadata/resource_loading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/metadata/schema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/metadata/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/platform_core_providers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/r3_symbols.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/reflection/platform_reflection_capabilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/reflection/reflection.externs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/reflection/reflection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/reflection/reflection_capabilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/reflection/reflector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/reflection/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/assert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/bindings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/component_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/context_discovery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/definition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/di.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/di_setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/empty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/features/copy_definition_feature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/features/inherit_definition_feature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/features/ng_onchanges_feature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/features/providers_feature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/fields.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/global_utils_api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/hooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/advance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/attribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/attribute_interpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/change_detection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/class_map_interpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/di.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/element_container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/embedded_view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/get_current_view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/host_property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/interpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/listener.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/lview_debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/namespace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/next_context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/projection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/property_interpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/shared.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/style_map_interpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/style_prop_interpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/styling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/instructions/text_interpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/interfaces/container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/interfaces/context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/interfaces/definition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/interfaces/document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/interfaces/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/interfaces/injector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/interfaces/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/interfaces/player.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/interfaces/projection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/interfaces/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/interfaces/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/interfaces/sanitization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/interfaces/styling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/interfaces/type_checks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/interfaces/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/jit/directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/jit/environment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/jit/jit_options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/jit/module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/jit/pipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/namespaces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/ng_module_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/node_assert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/node_manipulation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/node_selector_matcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/node_util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/pipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/pure_function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/styling/class_differ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/styling/static_styling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/styling/style_binding_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/styling/styling_parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/tokens.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/util/attrs_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/util/change_detection_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/util/debug_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/util/discovery_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/util/global_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/util/injector_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/util/misc_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/util/view_traversal_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/util/view_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/view_engine_compatibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/view_engine_compatibility_prebound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/render3/view_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/sanitization/bypass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/sanitization/html_sanitizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/sanitization/inert_body.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/sanitization/sanitization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/sanitization/sanitizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/sanitization/security.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/sanitization/style_sanitizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/sanitization/url_sanitizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/testability/testability.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/WrappedValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/array_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/assert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/char_code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/closure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/comparison.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/decorators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/empty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/is_dev_mode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/iterable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/lang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/microtask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/named_array_type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/ng_dev_mode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/ng_i18n_closure_mode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/ng_jit_mode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/ng_reflect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/noop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/raf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/util/util.externs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/entrypoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/ng_content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/ng_module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/pure_expression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/refs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/view/view_attach.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/zone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/src/zone/ng_zone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/public_api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/async_fallback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/async_test_completer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/before_each.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/component_fixture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/fake_async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/fake_async_fallback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/lang_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/metadata_override.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/metadata_overrider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/ng_zone_mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/private_export_testing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/r3_test_bed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/r3_test_bed_compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/resolvers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/styling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/test_bed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/test_bed_common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/test_compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/testing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/src/testing_internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/testing.externs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing/testing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/public_api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/application_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/application_module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/application_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/application_tokens.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/change_detection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/change_detection/change_detection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/change_detection/change_detection_util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/change_detection/change_detector_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/change_detection/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/change_detection/differs/default_iterable_differ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/change_detection/differs/default_keyvalue_differ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/change_detection/differs/iterable_differs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/change_detection/differs/keyvalue_differs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/change_detection/pipe_transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/codegen_private_exports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/compiler/compiler_facade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/compiler/compiler_facade_interface.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/console.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/core_private_export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/core_render3_private_export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/debug/debug_node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/debug/proxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/forward_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/injectable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/injection_token.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/injector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/injector_compatibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/interface/defs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/interface/injector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/interface/provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/jit/environment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/jit/injectable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/jit/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/r3_injector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/reflective_errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/reflective_injector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/reflective_key.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/reflective_provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/scope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/di/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/error_handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/event_emitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/i18n/locale_data_api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/i18n/locale_en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/i18n/localization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/i18n/tokens.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/interface/lifecycle_hooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/interface/simple_change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/interface/type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/ivy_switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/linker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/linker/compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/linker/component_factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/linker/component_factory_resolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/linker/element_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/linker/ng_module_factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/linker/ng_module_factory_loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/linker/ng_module_factory_registration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/linker/query_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/linker/system_js_ng_module_factory_loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/linker/template_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/linker/view_container_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/linker/view_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/metadata/di.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/metadata/directives.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/metadata/ng_module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/metadata/resource_loading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/metadata/schema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/metadata/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/platform_core_providers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/r3_symbols.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/reflection/platform_reflection_capabilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/reflection/reflection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/reflection/reflection_capabilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/reflection/reflector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/reflection/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/assert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/bindings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/component_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/context_discovery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/definition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/di.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/di_setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/empty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/features/copy_definition_feature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/features/inherit_definition_feature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/features/ng_onchanges_feature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/features/providers_feature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/fields.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/global_utils_api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/hooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/advance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/attribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/attribute_interpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/change_detection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/class_map_interpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/di.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/element_container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/embedded_view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/get_current_view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/host_property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/interpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/listener.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/lview_debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/namespace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/next_context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/projection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/property_interpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/shared.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/style_map_interpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/style_prop_interpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/styling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/instructions/text_interpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/interfaces/container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/interfaces/context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/interfaces/definition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/interfaces/document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/interfaces/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/interfaces/injector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/interfaces/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/interfaces/player.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/interfaces/projection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/interfaces/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/interfaces/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/interfaces/sanitization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/interfaces/styling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/interfaces/type_checks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/interfaces/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/jit/directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/jit/environment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/jit/jit_options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/jit/module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/jit/pipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/namespaces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/ng_module_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/node_assert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/node_manipulation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/node_selector_matcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/node_util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/pipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/pure_function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/styling/class_differ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/styling/static_styling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/styling/style_binding_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/styling/styling_parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/tokens.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/util/attrs_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/util/change_detection_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/util/debug_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/util/discovery_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/util/global_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/util/injector_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/util/misc_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/util/view_traversal_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/util/view_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/view_engine_compatibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/view_engine_compatibility_prebound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/render3/view_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/sanitization/bypass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/sanitization/html_sanitizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/sanitization/inert_body.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/sanitization/sanitization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/sanitization/sanitizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/sanitization/security.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/sanitization/style_sanitizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/sanitization/url_sanitizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/testability/testability.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/WrappedValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/array_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/assert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/char_code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/closure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/comparison.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/decorators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/empty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/is_dev_mode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/iterable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/lang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/microtask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/named_array_type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/ng_dev_mode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/ng_i18n_closure_mode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/ng_jit_mode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/ng_reflect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/noop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/raf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/util/symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/entrypoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/ng_content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/ng_module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/pure_expression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/refs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/view/view_attach.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/zone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/src/zone/ng_zone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/public_api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/async_fallback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/async_test_completer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/before_each.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/component_fixture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/fake_async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/fake_async_fallback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/lang_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/metadata_override.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/metadata_overrider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/ng_zone_mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/private_export_testing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/r3_test_bed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/r3_test_bed_compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/resolvers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/styling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/test_bed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/test_bed_common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/test_compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/testing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/src/testing_internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing/testing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/fesm2015/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/fesm2015/core.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/fesm2015/testing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/fesm2015/testing.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/fesm5/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/fesm5/core.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/fesm5/testing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/fesm5/testing.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/dynamic-queries/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/dynamic-queries/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/dynamic-queries/util.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/dynamic-queries/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/missing-injectable/definition_collector.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/missing-injectable/definition_collector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/missing-injectable/import_manager.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/missing-injectable/import_manager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/missing-injectable/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/missing-injectable/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/missing-injectable/providers_evaluator.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/missing-injectable/providers_evaluator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/missing-injectable/transform.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/missing-injectable/transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/missing-injectable/update_recorder.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/missing-injectable/update_recorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/module-with-providers/collector.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/module-with-providers/collector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/module-with-providers/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/module-with-providers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/module-with-providers/transform.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/module-with-providers/transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/module-with-providers/util.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/module-with-providers/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/move-document/document_import_visitor.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/move-document/document_import_visitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/move-document/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/move-document/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/move-document/move-import.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/move-document/move-import.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/renderer-to-renderer2/helpers.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/renderer-to-renderer2/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/renderer-to-renderer2/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/renderer-to-renderer2/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/renderer-to-renderer2/migration.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/renderer-to-renderer2/migration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/renderer-to-renderer2/util.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/renderer-to-renderer2/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/angular/directive_inputs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/angular/directive_inputs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/angular/ng_query_visitor.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/angular/ng_query_visitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/angular/query-definition.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/angular/query-definition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/angular/super_class.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/angular/super_class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/strategies/template_strategy/template_strategy.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/strategies/template_strategy/template_strategy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/strategies/test_strategy/test_strategy.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/strategies/test_strategy/test_strategy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/strategies/timing-strategy.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/strategies/timing-strategy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/strategies/usage_strategy/declaration_usage_visitor.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/strategies/usage_strategy/declaration_usage_visitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/strategies/usage_strategy/super_class_context.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/strategies/usage_strategy/super_class_context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/strategies/usage_strategy/template_usage_visitor.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/strategies/usage_strategy/template_usage_visitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/strategies/usage_strategy/usage_strategy.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/strategies/usage_strategy/usage_strategy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/transform.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/static-queries/transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/template-var-assignment/analyze_template.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/template-var-assignment/analyze_template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/template-var-assignment/angular/html_variable_assignment_visitor.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/template-var-assignment/angular/html_variable_assignment_visitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/template-var-assignment/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/template-var-assignment/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-decorated-fields/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-decorated-fields/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-decorated-fields/utils.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-decorated-fields/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/create_ngc_program.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/create_ngc_program.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/decorator_rewrite/convert_directive_metadata.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/decorator_rewrite/convert_directive_metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/decorator_rewrite/decorator_rewriter.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/decorator_rewrite/decorator_rewriter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/decorator_rewrite/import_rewrite_visitor.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/decorator_rewrite/import_rewrite_visitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/decorator_rewrite/path_format.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/decorator_rewrite/path_format.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/decorator_rewrite/source_file_exports.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/decorator_rewrite/source_file_exports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/find_base_classes.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/find_base_classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/import_manager.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/import_manager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/ng_declaration_collector.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/ng_declaration_collector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/transform.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/update_recorder.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/migrations/undecorated-classes-with-di/update_recorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/line_mappings.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/line_mappings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/ng_component_template.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/ng_component_template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/ng_decorators.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/ng_decorators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/parse_html.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/parse_html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/project_tsconfig_paths.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/project_tsconfig_paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/schematics_prompt.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/schematics_prompt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/class_declaration.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/class_declaration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/compiler_host.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/compiler_host.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/decorators.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/decorators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/functions.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/imports.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/imports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/nodes.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/nodes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/parse_tsconfig.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/parse_tsconfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/property_name.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/property_name.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/symbol.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/schematics/utils/typescript/symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/src/core.externs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/src/r3_symbols.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/src/testability/testability.externs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/testing.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/testing.metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/testing/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/testing/testing.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/core/testing/testing.metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jobcoach-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../jobcoach-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jobcoach-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../jobcoach-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jobcoach-client/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jobcoach-client/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jobcoach-client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jobcoach-client/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jobcoach-client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-eigen-benen-academie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/op-eigen-benen-academie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/JobCoachApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/contract/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/contract/Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/contract/ContractController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/contract/ContractController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/deelnemer/Deelnemer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/deelnemer/Deelnemer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/gesprek/Gesprek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/gesprek/Gesprek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/leerdoel/Leerdoel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/leerdoel/Leerdoel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/psychosomatisch/Psychosomatisch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/psychosomatisch/Psychosomatisch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/Gespreksoort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/Gespreksoort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/Level.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/Ziektebeeld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/Ziektebeeld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/contract/Contract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/contract/Contract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/contract/ContractController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/contract/ContractController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/contract/ContractRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/contract/ContractRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/contract/ContractService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/contract/ContractService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/deelnemer/Deelnemer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/deelnemer/Deelnemer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/deelnemer/DeelnemerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/deelnemer/DeelnemerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/deelnemer/DeelnemerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/deelnemer/DeelnemerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/deelnemer/DeelnemerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/deelnemer/DeelnemerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/gesprek/Gesprek.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/gesprek/Gesprek.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/gesprek/GesprekController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/gesprek/GesprekController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/gesprek/GesprekRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/gesprek/GesprekRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/gesprek/GesprekService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/gesprek/GesprekService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/leerdoel/Leerdoel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/leerdoel/Leerdoel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/leerdoel/LeerdoelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/leerdoel/LeerdoelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/leerdoel/LeerdoelRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/leerdoel/LeerdoelRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/leerdoel/LeerdoelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/leerdoel/LeerdoelService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/psychosomatisch/Psychosomatisch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/psychosomatisch/Psychosomatisch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/psychosomatisch/PsychosomatischController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/psychosomatisch/PsychosomatischController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/psychosomatisch/PsychosomatischRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/psychosomatisch/PsychosomatischRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/psychosomatisch/PsychosomatischService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/psychosomatisch/PsychosomatischService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/werknemersprofiel/WerknemersProfielController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/werknemersprofiel/WerknemersProfielController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/werkplekprofiel/WerkplekProfielController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/werkplekprofiel/WerkplekProfielController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +731,15 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../jobcoach-client" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1ZXBme5FQczGqsCD4OP72a8cFZh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -88,12 +751,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jobcoach-client" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -109,7 +775,7 @@
   <component name="RunManager">
     <configuration name="JobCoachApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nl.humanitas.JobCoachApplication" />
-      <module name="op-eigen-benen-academie" />
+      <module name="jobcoachsysteem" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="nl.humanitas.*" />
@@ -137,9 +803,34 @@
       <option name="presentableId" value="Default" />
       <updated>1584975718672</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated name">
+      <created>1585143783856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585143783856</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="updated name" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated name" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="520" y="263" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585218361789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="520" y="263" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1585218361789" />
+    <state x="413" y="11" key="CommitChangelistDialog2" timestamp="1585143782454">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="413" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585143782454" />
+    <state x="549" y="125" key="FileChooserDialogImpl" timestamp="1585214659566">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="125" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585214659566" />
     <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1585136342498">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -172,10 +863,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1492" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585045996753" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1585041546339">
+    <state x="439" y="117" key="NewModule_or_Project.wizard" timestamp="1585214673674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585041546339" />
+    <state x="439" y="117" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1585214673674" />
+    <state x="279" y="58" key="SettingsEditor" timestamp="1585220184684">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585220184684" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1585143793971">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585143793971" />
     <state x="580" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585041476723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -184,5 +883,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="540" y="145" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1585041764088" />
+    <state x="474" y="46" width="588" height="732" key="find.popup" timestamp="1585229135012">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="474" y="46" width="588" height="732" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585229135012" />
+    <state x="209" y="120" key="new project wizard" timestamp="1585213962786">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="120" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585213962786" />
   </component>
 </project>

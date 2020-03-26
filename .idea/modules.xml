@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/op-eigen-benen-academie.iml" filepath="$PROJECT_DIR$/op-eigen-benen-academie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../jobcoach-client/jobcoach-client.iml" filepath="$PROJECT_DIR$/../jobcoach-client/jobcoach-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jobcoachsysteem.iml" filepath="$PROJECT_DIR$/jobcoachsysteem.iml" />
     </modules>
   </component>
 </project>
