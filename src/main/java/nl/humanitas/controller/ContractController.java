@@ -1,7 +1,7 @@
 package nl.humanitas.controller;
 
-import nl.humanitas.model.Contract;
 import nl.humanitas.model.Deelnemer;
+import nl.humanitas.model.contract.Contract;
 import nl.humanitas.service.ContractService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

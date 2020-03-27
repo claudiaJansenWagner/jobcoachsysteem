@@ -1,7 +1,7 @@
 package nl.humanitas.controller;
 
 import nl.humanitas.model.Deelnemer;
-import nl.humanitas.model.Psychosomatisch;
+import nl.humanitas.model.psychosomatisch.Psychosomatisch;
 import nl.humanitas.service.PsychosomatischService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

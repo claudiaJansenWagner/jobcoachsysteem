@@ -1,8 +1,8 @@
-package nl.humanitas.model;
+package nl.humanitas.model.gesprek;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import nl.humanitas.model.Deelnemer;
+
+import javax.persistence.*;
 
 @Entity
 public class Gesprek {
@@ -10,7 +10,8 @@ public class Gesprek {
 	@Id
 	private String id;
 	private String datumGesprek;
-	private String soortGesprek;
+	@Enumerated(EnumType.STRING)
+	private Gespreksoort soortGesprek;
 	private String verslagGesprek;
 
 	@ManyToOne
@@ -20,7 +21,8 @@ public class Gesprek {
 
 	}
 
-	public Gesprek(String id, String datumGesprek, String soortGesprek, String verslagGesprek, String deelnemerId) {
+	public Gesprek(String id, String datumGesprek, Gespreksoort soortGesprek, String verslagGesprek,
+                   String deelnemerId) {
 		super();
 		this.id = id;
 		this.datumGesprek = datumGesprek;
@@ -30,10 +32,10 @@ public class Gesprek {
 	}
 
 	public String getSoortGesprek() {
-		return soortGesprek;
+		return soortGesprek.toString();
 	}
 
-	public void setSoortGesprek(String soortGesprek) {
+	public void setSoortGesprek(Gespreksoort soortGesprek) {
 		this.soortGesprek = soortGesprek;
 	}
 

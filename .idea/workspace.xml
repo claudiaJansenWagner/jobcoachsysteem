@@ -1,45 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3620b5c5-6763-4c4e-866f-3547d2e287ac" name="Default Changelist" comment="Refactor naar layer indeling en logica voor WerknemersProfiel toegevoegd. Applicatie draait niet vanwege de entityManagerFactory">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/werknemersprofiel/ProfielOmschrijving.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/werknemersprofiel/WerknemerOmschrijving.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/werknemersprofiel/WerknemersProfiel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/repository/WerknemersProfielRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/service/WerknemersProfielService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobcoach-client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jobcoach-client/src/app/deelnemers/deelnemers.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jobcoach-client/src/app/deelnemers/deelnemers.component.html" afterDir="false" />
+    <list default="true" id="3620b5c5-6763-4c4e-866f-3547d2e287ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/Gespreksoort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/Gespreksoort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/JobCoachApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/JobCoachApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/Niveau.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/Ziektebeeld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/Ziektebeeld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/config/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/contract/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/contract/ContractController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/controller/ContractController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/contract/ContractRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/repository/ContractRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/contract/ContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/service/ContractService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/deelnemer/Deelnemer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/Deelnemer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/deelnemer/DeelnemerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/controller/DeelnemerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/deelnemer/DeelnemerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/repository/DeelnemerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/deelnemer/DeelnemerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/service/DeelnemerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/gesprek/Gesprek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/Gesprek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/gesprek/GesprekController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/controller/GesprekController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/gesprek/GesprekRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/repository/GesprekRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/gesprek/GesprekService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/service/GesprekService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/leerdoel/Leerdoel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/Leerdoel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/leerdoel/LeerdoelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/controller/LeerdoelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/leerdoel/LeerdoelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/repository/LeerdoelRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/leerdoel/LeerdoelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/service/LeerdoelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/psychosomatisch/Psychosomatisch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/Psychosomatisch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/psychosomatisch/PsychosomatischController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/controller/PsychosomatischController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/psychosomatisch/PsychosomatischRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/repository/PsychosomatischRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/psychosomatisch/PsychosomatischService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/service/PsychosomatischService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/werknemersprofiel/WerknemersProfielController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/controller/WerknemersProfielController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/werkplekprofiel/WerkplekProfielController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/controller/WerkplekProfielController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nl/humanitas/contract/ContractControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nl/humanitas/contract/ContractControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/controller/ContractController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/controller/ContractController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/controller/GesprekController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/controller/GesprekController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/controller/PsychosomatischController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/controller/PsychosomatischController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/contract/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/Gesprek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/gesprek/Gesprek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/Gespreksoort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/gesprek/Gespreksoort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/Niveau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/contract/Niveau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/Psychosomatisch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/psychosomatisch/Psychosomatisch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/Ziektebeeld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/model/psychosomatisch/Ziektebeeld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/repository/ContractRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/repository/ContractRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/repository/GesprekRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/repository/GesprekRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/repository/PsychosomatischRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/repository/PsychosomatischRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/service/ContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/service/ContractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/service/GesprekService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/service/GesprekService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/humanitas/service/PsychosomatischService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/humanitas/service/PsychosomatischService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/nl.humanitas/op-eigen-benen-academie/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/nl.humanitas/op-eigen-benen-academie/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/op-eigen-benen-academie.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/Gespreksoort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/JobCoachApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/humanitas/JobCoachApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/Level.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/Ziektebeeld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/contract/Contract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/contract/ContractController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/contract/ContractRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/contract/ContractService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/deelnemer/Deelnemer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/deelnemer/DeelnemerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/deelnemer/DeelnemerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/deelnemer/DeelnemerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/gesprek/Gesprek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/gesprek/GesprekController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/gesprek/GesprekRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/gesprek/GesprekService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/leerdoel/Leerdoel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/leerdoel/LeerdoelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/leerdoel/LeerdoelRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/leerdoel/LeerdoelService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/psychosomatisch/Psychosomatisch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/psychosomatisch/PsychosomatischController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/psychosomatisch/PsychosomatischRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/psychosomatisch/PsychosomatischService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/werknemersprofiel/WerknemersProfielController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/humanitas/werkplekprofiel/WerkplekProfielController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nl/humanitas/contract/ContractControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/nl/humanitas/contract/ContractControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585236901025</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactor naar layer indeling en logica voor WerknemersProfiel toegevoegd. Applicatie draait niet vanwege de entityManagerFactory">
+      <created>1585305571462</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585305571462</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,10 +183,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="520" y="263" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1585218361789" />
-    <state x="415" y="18" key="CommitChangelistDialog2" timestamp="1585305321227">
+    <state x="307" y="18" key="CommitChangelistDialog2" timestamp="1585305564146">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="415" y="18" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585305321227" />
+    <state x="307" y="18" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585305564146" />
     <state x="549" y="125" key="FileChooserDialogImpl" timestamp="1585214659566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -213,10 +231,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585300725310" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1585236905344">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1585305575249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585236905344" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585305575249" />
     <state x="580" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585041476723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

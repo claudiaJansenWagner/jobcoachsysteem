@@ -1,6 +1,6 @@
 package nl.humanitas.service;
 
-import nl.humanitas.model.Gesprek;
+import nl.humanitas.model.gesprek.Gesprek;
 import nl.humanitas.repository.GesprekRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

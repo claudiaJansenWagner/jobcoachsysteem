@@ -1,6 +1,6 @@
 package nl.humanitas.service;
 
-import nl.humanitas.model.Psychosomatisch;
+import nl.humanitas.model.psychosomatisch.Psychosomatisch;
 import nl.humanitas.repository.PsychosomatischRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

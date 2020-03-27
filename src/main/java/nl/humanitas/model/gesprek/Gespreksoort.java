@@ -1,4 +1,4 @@
-package nl.humanitas.model;
+package nl.humanitas.model.gesprek;
 
 public enum Gespreksoort {
 	INTAKE,

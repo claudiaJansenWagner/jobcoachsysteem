@@ -1,15 +1,16 @@
-package nl.humanitas.model;
+package nl.humanitas.model.psychosomatisch;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import nl.humanitas.model.Deelnemer;
+
+import javax.persistence.*;
 
 @Entity
 public class Psychosomatisch {
 
 	@Id
 	private String id;
-	private String ziektebeeld;
+	@Enumerated(EnumType.STRING)
+	private Ziektebeeld ziektebeeld;
 	private String ambulanteBegeleider;
 	private String omschrijving;
 	private Long indicatieAantalUur;
@@ -23,8 +24,9 @@ public class Psychosomatisch {
 
 	}
 
-	public Psychosomatisch(String id, String ziektebeeld, String ambulanteBegeleider, String omschrijving,
-			Long indicatieAantalUur, String begindatumIndicatie, String einddatumIndicatie, String deelnemerId) {
+	public Psychosomatisch(String id, Ziektebeeld ziektebeeld, String ambulanteBegeleider, String omschrijving,
+                           Long indicatieAantalUur, String begindatumIndicatie, String einddatumIndicatie,
+                           String deelnemerId) {
 		super();
 		this.id = id;
 		this.ziektebeeld = ziektebeeld;
@@ -76,11 +78,11 @@ public class Psychosomatisch {
 		this.id = id;
 	}
 
-	public String getZiektebeeld() {
+	public Ziektebeeld getZiektebeeld() {
 		return ziektebeeld;
 	}
 
-	public void setZiektebeeld(String ziektebeeld) {
+	public void setZiektebeeld(Ziektebeeld ziektebeeld) {
 		this.ziektebeeld = ziektebeeld;
 	}
 

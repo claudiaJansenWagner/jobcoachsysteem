@@ -1,6 +1,6 @@
 package nl.humanitas.repository;
 
-import nl.humanitas.model.Psychosomatisch;
+import nl.humanitas.model.psychosomatisch.Psychosomatisch;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,6 @@
-package nl.humanitas.model;
+package nl.humanitas.model.contract;
+
+import nl.humanitas.model.Deelnemer;
 
 import javax.persistence.*;
 

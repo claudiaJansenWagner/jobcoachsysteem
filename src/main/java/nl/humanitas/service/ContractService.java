@@ -1,6 +1,6 @@
 package nl.humanitas.service;
 
-import nl.humanitas.model.Contract;
+import nl.humanitas.model.contract.Contract;
 import nl.humanitas.repository.ContractRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
