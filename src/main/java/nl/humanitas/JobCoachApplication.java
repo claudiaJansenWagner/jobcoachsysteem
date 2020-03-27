@@ -1,15 +1,15 @@
 package nl.humanitas;
 
-import nl.humanitas.config.ApplicationConfig;
+//import nl.humanitas.config.ApplicationConfig;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
 
 @Configuration
 @EnableAutoConfiguration
-@Import(ApplicationConfig.class)
+//@Import(ApplicationConfig.class)
 @SpringBootApplication
 public class JobCoachApplication {
 	public static void main(String[] args) {
