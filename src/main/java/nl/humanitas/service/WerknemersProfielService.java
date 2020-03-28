@@ -3,11 +3,13 @@ package nl.humanitas.service;
 import nl.humanitas.model.werknemersprofiel.WerknemersProfiel;
 import nl.humanitas.repository.WerknemersProfielRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class WerknemersProfielService {
     @Autowired
     WerknemersProfielRepository werknemersProfielRepository;

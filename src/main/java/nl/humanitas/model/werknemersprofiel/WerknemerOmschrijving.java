@@ -1,6 +1,13 @@
 package nl.humanitas.model.werknemersprofiel;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class WerknemerOmschrijving {
+
+    @Id
+    private String id;
     private String omschrijvingWerknemer;
     private String woonsituatie;
     private String omschrijvingAcademie;
